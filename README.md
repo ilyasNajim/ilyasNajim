@@ -27,7 +27,7 @@
 
 ## `> whoami`
 
-Engineering student at **EMSI** (École Marocaine des Sciences de l'Ingénieur), after a **DUT in Artificial Intelligence & Emerging Technologies (IATE)** at **EST Meknès**. I build AI systems that solve real problems: a **multilingual document-analysis platform** powered by Gemini 2.5 Flash, an **IoT intrusion-detection system** over MQTT with ML and DL, and **computer vision algorithms implemented from scratch**.
+Engineering student at **EMSI** (École Marocaine des Sciences de l'Ingénieur), after a **DUT in Artificial Intelligence & Emerging Technologies (IATE)** at **EST Meknès**. I build AI systems that solve real problems: a **multilingual document-analysis platform** powered by Gemini 2.5 Flash, an **IoT intrusion-detection system** over MQTT (ESP32, XGBoost, Autoencoder, real-time dashboard), and **computer vision algorithms implemented from scratch**.
 
 ```bash
 $ cat .profile
@@ -83,7 +83,7 @@ OPEN_TO    =  AI/ML Internships
 | Domain | Details |
 | :-- | :-- |
 | **Document AI & NLP** | Multilingual document analysis (FR / AR / Darija / EN), classification, information extraction, chat agent with Gemini 2.5 Flash |
-| **IoT Security** | Anomaly and intrusion detection on MQTT traffic with machine learning and deep learning |
+| **IoT Security** | Intrusion detection on MQTT traffic with XGBoost and an Autoencoder, ESP32 / DHT22 prototype, FastAPI backend, real-time React dashboard |
 | **Computer Vision** | Image segmentation and contour (edge) detection implemented from scratch, with a graphical interface |
 | **Backend & Web** | FastAPI, React, responsive front-end with HTML / CSS / vanilla JavaScript, PHP, MySQL |
 | **Programming** | Python, Java, C++, JavaScript, TypeScript |
@@ -107,7 +107,7 @@ OPEN_TO    =  AI/ML Internships
 | Project | Domain | Stack | Status |
 | :-- | :-- | :-- | :-- |
 | 📄 **DocAI Platform** | Document AI / NLP | Python · FastAPI · React · Gemini 2.5 Flash | 🔜 Publishing soon |
-| 📡 **MQTT Anomaly Detection** | IoT Security | Python · ML · DL · MQTT | 🔜 Publishing soon |
+| 📡 **[MQTT-IDS](https://github.com/Fettache/iot-mqtt-intrusion-detection)** | IoT Security | ESP32 · FastAPI · XGBoost · Autoencoder · React | ✅ Published (with teammate) |
 | 👁️ **[Computer Vision from Scratch](https://github.com/ilyasNajim/computer-vision-from-scratch)** | Computer Vision | Python · NumPy · Pillow · CustomTkinter | ✅ Published |
 | 🏎️ **[BMW Website](https://github.com/ilyasNajim/bmw-website)** | Front-End Web | HTML · CSS · JavaScript | ✅ Published |
 | ☕ **Coffee Shop Website** | Full-Stack Web | HTML · CSS · JS · PHP · MySQL | 🔜 Publishing soon |
@@ -150,31 +150,41 @@ A full web app that analyzes documents in **French, Arabic, Darija and English**
 </details>
 
 <details open>
-<summary><b>&#9654; MQTT Anomaly Detection &mdash; IoT Intrusion Detection</b></summary>
+<summary><b>&#9654; MQTT-IDS &mdash; Intrusion Detection for IoT (ESP32 + ML/DL)</b></summary>
 
 <br/>
 
-Detects anomalies and intrusions in IoT network traffic over the **MQTT protocol**, using both **machine learning** and **deep learning** models. Built with a teammate.
+An intrusion-detection platform for an **IoT environment based on the MQTT protocol**. It combines an **ESP32 with a DHT22 sensor**, a **Mosquitto broker**, a **FastAPI backend**, **Machine Learning / Deep Learning models** (XGBoost and an Autoencoder) and a **real-time React dashboard**. Built with my teammate **Mohamed Fettache**.
 
 ```text
-  IoT traffic (MQTT)          models                  output
- ┌─────────────────┐     ┌──────────────┐     ┌───────────────────┐
- │ publishers /    │ ──► │  ML  +  DL   │ ──► │ normal / anomaly  │
- │ subscribers     │     │ classifiers  │     │ intrusion alerts  │
- └─────────────────┘     └──────────────┘     └───────────────────┘
+  ESP32 / DHT22
+        │  MQTT  (topic: pfe/mqtt/trafic)
+        ▼
+  Mosquitto broker
+        │
+        ▼
+  FastAPI backend ───► XGBoost (classification)
+        │              Autoencoder (anomaly check)
+        │  WebSocket
+        ▼
+  React dashboard  (statistics, anomalies, models page)
 ```
 
 | Aspect | Detail |
 | :-- | :-- |
-| **Stack** | Python &middot; Machine Learning &middot; Deep Learning &middot; MQTT |
-| **Impact** | Detects intrusions on IoT networks by learning what normal MQTT traffic looks like |
-| **Team** | Built with a teammate |
-| **Repo** | 🔜 Publishing soon |
+| **Scenarios** | 7 simulated: legitimate, DoS, Flood, Bruteforce, SlowITe, Malformed, unknown anomaly |
+| **Detection** | XGBoost classification + Autoencoder anomaly verification |
+| **Real time** | Results streamed to the React dashboard through WebSocket |
+| **Hardware** | ESP32 DevKit + DHT22 temperature / humidity sensor |
+| **Stack** | Python &middot; FastAPI &middot; XGBoost &middot; Autoencoder &middot; React / Vite &middot; Mosquitto &middot; MQTT |
+| **Team** | Mohamed Fettache &amp; Ilyas Najim |
+| **Repo** | [github.com/Fettache/iot-mqtt-intrusion-detection](https://github.com/Fettache/iot-mqtt-intrusion-detection) |
 
 <img src="https://img.shields.io/badge/Python-0A0D16?style=flat-square&logo=python&logoColor=00F5FF" />
-<img src="https://img.shields.io/badge/TensorFlow-0A0D16?style=flat-square&logo=tensorflow&logoColor=00F5FF" />
-<img src="https://img.shields.io/badge/scikit--learn-0A0D16?style=flat-square&logo=scikitlearn&logoColor=00F5FF" />
+<img src="https://img.shields.io/badge/FastAPI-0A0D16?style=flat-square&logo=fastapi&logoColor=00F5FF" />
+<img src="https://img.shields.io/badge/React-0A0D16?style=flat-square&logo=react&logoColor=00F5FF" />
 <img src="https://img.shields.io/badge/MQTT-0A0D16?style=flat-square&logo=mqtt&logoColor=00F5FF" />
+<img src="https://img.shields.io/badge/ESP32-0A0D16?style=flat-square&logo=espressif&logoColor=00F5FF" />
 
 </details>
 
@@ -310,7 +320,7 @@ learning:
 
 building:
   - DocAI Platform    # multilingual document analysis with Gemini 2.5 Flash
-  - MQTT-IDS          # ML and DL intrusion detection for IoT
+  - MQTT-IDS          # ESP32 + FastAPI + XGBoost/Autoencoder, real-time dashboard
   - Vision from scratch # segmentation + contour detection, published
 
 open_to:
