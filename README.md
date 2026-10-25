@@ -267,23 +267,33 @@ A coffee shop website with a database-backed back end: dynamic pages and data st
 
 </div>
 
-<!--
-  ===== SECTION STATS : à activer APRÈS avoir poussé tes projets =====
-  Retire les balises de commentaire autour de ce bloc :
-
 ## `> gh api /stats`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ilyasNajim&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=30,05070D,1A0D33&title_color=00F5FF&icon_color=B57BFF&text_color=E6EDF3&ring_color=00F5FF" />
-<img height="170" src="https://streak-stats.demolab.com/?user=ilyasNajim&hide_border=true&border_radius=12&background=05070D&stroke=1A0D33&ring=00F5FF&fire=B57BFF&currStreakLabel=00F5FF&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=B57BFF&dates=B57BFF" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2400&pause=600&color=B57BFF&background=05070D00&center=true&vCenter=true&width=700&height=34&lines=%24+gh+api+%2Fusers%2FilyasNajim%2Fstats;%3E+fetching+contribution+data+..." alt="" />
 
 <br/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilyasNajim&layout=compact&langs_count=8&hide_border=true&border_radius=12&bg_color=30,05070D,1A0D33&title_color=00F5FF&text_color=E6EDF3" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=ilyasNajim&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&border_radius=12&bg_color=30,05070D,1A0D33&title_color=00F5FF&icon_color=B57BFF&text_color=E6EDF3&ring_color=00F5FF" alt="GitHub Stats" />
+<img height="170" src="https://streak-stats.demolab.com/?user=ilyasNajim&hide_border=true&border_radius=12&background=05070D&stroke=1A0D33&ring=00F5FF&fire=B57BFF&currStreakLabel=00F5FF&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=B57BFF&dates=B57BFF" alt="Streak" />
+
+<br/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilyasNajim&layout=compact&langs_count=8&hide_border=true&border_radius=12&bg_color=30,05070D,1A0D33&title_color=00F5FF&text_color=E6EDF3" alt="Top Languages" />
+
+<br/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ilyasNajim&theme=github_dark" alt="Repos per language" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ilyasNajim&theme=github_dark" alt="Most commit language" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ilyasNajim&theme=github_dark" alt="Stats" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ilyasNajim&theme=github_dark&utcOffset=1" alt="Productive time" />
+
+<img width="100%" src="https://raw.githubusercontent.com/ilyasNajim/ilyasNajim/main/divider.svg" alt="" />
 
 </div>
--->
+
 
 ## `> cat current-focus.yaml`
 
