@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/DUT-IATE-8A2BE2?style=for-the-badge" alt="DUT IATE" />
-  <img src="https://img.shields.io/badge/EST-Mekn%C3%A8s-00BFFF?style=for-the-badge" alt="EST Meknès" />
+  <img src="https://img.shields.io/badge/EMSI-Engineering%20Student-00BFFF?style=for-the-badge" alt="EMSI" />
+  <img src="https://img.shields.io/badge/DUT-IATE%20%C2%B7%20EST%20Mekn%C3%A8s-8A2BE2?style=for-the-badge" alt="DUT IATE EST Meknès" />
   <img src="https://img.shields.io/badge/Open%20to-Internships-2ea44f?style=for-the-badge" alt="Open to internships" />
   <img src="https://komarev.com/ghpvc/?username=ilyasNajim&label=Profile+views&color=ff4fd8&style=for-the-badge" alt="views" />
 </p>
@@ -26,13 +26,14 @@
 
 ## `❯ whoami`
 
-Second-year **DUT IATE** student at **EST Meknès**, building AI systems that solve real problems: a **multilingual document-analysis platform** powered by Gemini 2.5 Flash, an **IoT intrusion-detection system** over MQTT with ML and DL, and **computer vision algorithms implemented from scratch**.
+Engineering student at **EMSI** (École Marocaine des Sciences de l'Ingénieur), after a **DUT in Artificial Intelligence & Emerging Technologies (IATE)** at **EST Meknès**. I build AI systems that solve real problems: a **multilingual document-analysis platform** powered by Gemini 2.5 Flash, an **IoT intrusion-detection system** over MQTT with ML and DL, and **computer vision algorithms implemented from scratch**.
 
 ```bash
 $ cat .profile
 
-ROLE      = AI/ML Student (DUT IATE)
-SCHOOL    = EST Meknès - Université Moulay Ismaïl
+ROLE      = Engineering Student (AI/ML)
+SCHOOL    = EMSI - École Marocaine des Sciences de l'Ingénieur
+PREVIOUSLY= DUT IATE - EST Meknès (Université Moulay Ismaïl)
 DOMAIN    = Document AI | IoT Security | Computer Vision | Web
 STACK     = Python | FastAPI | React | PHP | Java | MySQL
 FOCUS     = NLP | RAG | Machine Learning | Deep Learning | Big Data
