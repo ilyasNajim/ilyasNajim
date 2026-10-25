@@ -107,7 +107,7 @@ OPEN_TO    =  AI/ML Internships
 | Project | Domain | Stack | Status |
 | :-- | :-- | :-- | :-- |
 | 📄 **DocAI Platform** | Document AI / NLP | Python · FastAPI · React · Gemini 2.5 Flash | 🔜 Publishing soon |
-| 📡 **[MQTT-IDS](https://github.com/Fettache/iot-mqtt-intrusion-detection)** | IoT Security | ESP32 · FastAPI · XGBoost · Autoencoder · React | ✅ Published (with teammate) |
+| 📡 **[MQTT-IDS](https://github.com/ilyasNajim/iot-mqtt-intrusion-detection)** | IoT Security | ESP32 · FastAPI · XGBoost · Autoencoder · React | ✅ Published (with teammate) |
 | 👁️ **[Computer Vision from Scratch](https://github.com/ilyasNajim/computer-vision-from-scratch)** | Computer Vision | Python · NumPy · Pillow · CustomTkinter | ✅ Published |
 | 🏎️ **[BMW Website](https://github.com/ilyasNajim/bmw-website)** | Front-End Web | HTML · CSS · JavaScript | ✅ Published |
 | ☕ **Coffee Shop Website** | Full-Stack Web | HTML · CSS · JS · PHP · MySQL | 🔜 Publishing soon |
@@ -178,7 +178,7 @@ An intrusion-detection platform for an **IoT environment based on the MQTT proto
 | **Hardware** | ESP32 DevKit + DHT22 temperature / humidity sensor |
 | **Stack** | Python &middot; FastAPI &middot; XGBoost &middot; Autoencoder &middot; React / Vite &middot; Mosquitto &middot; MQTT |
 | **Team** | Mohamed Fettache &amp; Ilyas Najim |
-| **Repo** | [github.com/Fettache/iot-mqtt-intrusion-detection](https://github.com/Fettache/iot-mqtt-intrusion-detection) |
+| **Repo** | [github.com/ilyasNajim/iot-mqtt-intrusion-detection](https://github.com/ilyasNajim/iot-mqtt-intrusion-detection) (original repo by my teammate: [Fettache/iot-mqtt-intrusion-detection](https://github.com/Fettache/iot-mqtt-intrusion-detection)) |
 
 <img src="https://img.shields.io/badge/Python-0A0D16?style=flat-square&logo=python&logoColor=00F5FF" />
 <img src="https://img.shields.io/badge/FastAPI-0A0D16?style=flat-square&logo=fastapi&logoColor=00F5FF" />
