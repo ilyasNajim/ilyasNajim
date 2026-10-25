@@ -99,7 +99,7 @@ OPEN_TO    =  AI/ML Internships
 ## `> ls -la /projects`
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2400&pause=600&color=B57BFF&background=05070D00&center=true&vCenter=true&width=700&height=34&lines=%24+git+clone+--all+~%2Fprojects;%3E+5+projects+found" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2400&pause=600&color=B57BFF&background=05070D00&center=true&vCenter=true&width=700&height=34&lines=%24+git+clone+--all+~%2Fprojects;%3E+6+projects+found" alt="" />
 </div>
 
 <div align="center">
@@ -110,6 +110,7 @@ OPEN_TO    =  AI/ML Internships
 | 📡 **[MQTT-IDS](https://github.com/ilyasNajim/iot-mqtt-intrusion-detection)** | IoT Security | ESP32 · FastAPI · XGBoost · Autoencoder · React | ✅ Published (with teammate) |
 | 👁️ **[Computer Vision from Scratch](https://github.com/ilyasNajim/computer-vision-from-scratch)** | Computer Vision | Python · NumPy · Pillow · CustomTkinter | ✅ Published |
 | 🏎️ **[BMW Website](https://github.com/ilyasNajim/bmw-website)** | Front-End Web | HTML · CSS · JavaScript | ✅ Published |
+| 📝 **[Todo ReactJS](https://github.com/ilyasNajim/todo-reactjs)** | Front-End Web | React 19 · TypeScript · Vite · Tailwind CSS · DaisyUI | ✅ Published |
 | ☕ **Coffee Shop Website** | Full-Stack Web | HTML · CSS · JS · PHP · MySQL | 🔜 Publishing soon |
 
 </div>
