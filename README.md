@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/ilyasNajim/ilyasNajim/main/banner.svg" alt="Ilyas Najim" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=700&color=00F5FF&background=05070D00&center=true&vCenter=true&width=900&height=52&lines=%24+whoami+%E2%86%92+Ilyas+Najim+%7C+AI+%26+ML+%7C+EMSI;%24+cat+stack.txt+%E2%86%92+Python+%7C+FastAPI+%7C+React+%7C+TensorFlow;%24+ls+~%2Fprojects+%E2%86%92+DocAI+%7C+MQTT-IDS+%7C+Vision+%7C+Coffee+Shop;%24+focus+--now+%E2%86%92+NLP+%7C+RAG+%7C+Deep+Learning;%24+cat+open-to.txt+%E2%86%92+AI%2FML+Internships" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=700&color=00F5FF&background=05070D00&center=true&vCenter=true&width=900&height=52&lines=%24+whoami+%E2%86%92+Ilyas+Najim+%7C+AI+%26+ML+%7C+EMSI;%24+cat+stack.txt+%E2%86%92+Python+%7C+FastAPI+%7C+React+%7C+TensorFlow;%24+ls+~%2Fprojects+%E2%86%92+DocAI+%7C+MQTT-IDS+%7C+Vision+%7C+BMW+%7C+Coffee+Shop;%24+focus+--now+%E2%86%92+NLP+%7C+RAG+%7C+Deep+Learning;%24+cat+open-to.txt+%E2%86%92+AI%2FML+Internships" alt="Typing SVG" />
 
 <br/>
 
@@ -84,8 +84,8 @@ OPEN_TO    =  AI/ML Internships
 | :-- | :-- |
 | **Document AI & NLP** | Multilingual document analysis (FR / AR / Darija / EN), classification, information extraction, chat agent with Gemini 2.5 Flash |
 | **IoT Security** | Anomaly and intrusion detection on MQTT traffic with machine learning and deep learning |
-| **Computer Vision** | Image segmentation implemented from scratch |
-| **Backend & Web** | FastAPI, React, HTML / CSS / JavaScript, PHP, MySQL |
+| **Computer Vision** | Image segmentation and contour (edge) detection implemented from scratch, with a graphical interface |
+| **Backend & Web** | FastAPI, React, responsive front-end with HTML / CSS / vanilla JavaScript, PHP, MySQL |
 | **Programming** | Python, Java, C++, JavaScript, TypeScript |
 
 <div align="center">
@@ -99,7 +99,19 @@ OPEN_TO    =  AI/ML Internships
 ## `> ls -la /projects`
 
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2400&pause=600&color=B57BFF&background=05070D00&center=true&vCenter=true&width=700&height=34&lines=%24+git+clone+--all+~%2Fprojects;%3E+4+projects+found" alt="" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2400&pause=600&color=B57BFF&background=05070D00&center=true&vCenter=true&width=700&height=34&lines=%24+git+clone+--all+~%2Fprojects;%3E+5+projects+found" alt="" />
+</div>
+
+<div align="center">
+
+| Project | Domain | Stack | Status |
+| :-- | :-- | :-- | :-- |
+| 📄 **DocAI Platform** | Document AI / NLP | Python · FastAPI · React · Gemini 2.5 Flash | 🔜 Publishing soon |
+| 📡 **MQTT Anomaly Detection** | IoT Security | Python · ML · DL · MQTT | 🔜 Publishing soon |
+| 👁️ **[Computer Vision from Scratch](https://github.com/ilyasNajim/computer-vision-from-scratch)** | Computer Vision | Python · NumPy · Pillow · CustomTkinter | ✅ Published |
+| 🏎️ **[BMW Website](https://github.com/ilyasNajim/bmw-website)** | Front-End Web | HTML · CSS · JavaScript | ✅ Published |
+| ☕ **Coffee Shop Website** | Full-Stack Web | HTML · CSS · JS · PHP · MySQL | 🔜 Publishing soon |
+
 </div>
 
 <details open>
@@ -128,7 +140,7 @@ A full web app that analyzes documents in **French, Arabic, Darija and English**
 | **Stack** | Python &middot; FastAPI &middot; React &middot; Gemini 2.5 Flash |
 | **Languages** | French &middot; Arabic &middot; Darija &middot; English |
 | **Impact** | Turns unstructured documents (contracts, CVs, invoices, tickets) into structured, searchable information |
-| **Repo** | [github.com/ilyasNajim](https://github.com/ilyasNajim?tab=repositories) |
+| **Repo** | 🔜 Publishing soon |
 
 <img src="https://img.shields.io/badge/Python-0A0D16?style=flat-square&logo=python&logoColor=00F5FF" />
 <img src="https://img.shields.io/badge/FastAPI-0A0D16?style=flat-square&logo=fastapi&logoColor=00F5FF" />
@@ -157,7 +169,7 @@ Detects anomalies and intrusions in IoT network traffic over the **MQTT protocol
 | **Stack** | Python &middot; Machine Learning &middot; Deep Learning &middot; MQTT |
 | **Impact** | Detects intrusions on IoT networks by learning what normal MQTT traffic looks like |
 | **Team** | Built with a teammate |
-| **Repo** | [github.com/ilyasNajim](https://github.com/ilyasNajim?tab=repositories) |
+| **Repo** | 🔜 Publishing soon |
 
 <img src="https://img.shields.io/badge/Python-0A0D16?style=flat-square&logo=python&logoColor=00F5FF" />
 <img src="https://img.shields.io/badge/TensorFlow-0A0D16?style=flat-square&logo=tensorflow&logoColor=00F5FF" />
@@ -167,20 +179,48 @@ Detects anomalies and intrusions in IoT network traffic over the **MQTT protocol
 </details>
 
 <details>
-<summary><b>&#9654; Computer Vision from Scratch &mdash; Simple Segmentation</b></summary>
+<summary><b>&#9654; Computer Vision from Scratch &mdash; Segmentation &amp; Contour Detection</b></summary>
 
 <br/>
 
-Image segmentation implemented **from scratch**, to really understand how the algorithms work under the hood.
+A small image-processing app with two core features, both implemented **from scratch**: **image segmentation** and **contour detection**. Load an image, run an operation, compare it with the resulting image, and save the result, all from a simple graphical interface.
 
 | Aspect | Detail |
 | :-- | :-- |
 | **Stack** | Python &middot; Computer Vision |
-| **Impact** | Deep understanding of segmentation, built without relying on high-level libraries |
-| **Repo** | [github.com/ilyasNajim](https://github.com/ilyasNajim?tab=repositories) |
+| **Features** | Load image &middot; Detect contours &middot; Segment image &middot; Save image |
+| **Impact** | Deep understanding of segmentation and edge detection, built without relying on high-level libraries |
+| **Repo** | [github.com/ilyasNajim/computer-vision-from-scratch](https://github.com/ilyasNajim/computer-vision-from-scratch) |
 
 <img src="https://img.shields.io/badge/Python-0A0D16?style=flat-square&logo=python&logoColor=00F5FF" />
 <img src="https://img.shields.io/badge/Computer%20Vision-0A0D16?style=flat-square&logo=opencv&logoColor=00F5FF" />
+
+</details>
+
+<details>
+<summary><b>&#9654; BMW Website &mdash; Responsive Showroom Concept</b></summary>
+
+<br/>
+
+A responsive, single-page **showroom concept** inspired by BMW's design and performance. It presents a selection of BMW models in an interactive catalogue, built with **HTML, CSS and vanilla JavaScript** and no framework.
+
+| Feature | Detail |
+| :-- | :-- |
+| 🚗 **Catalogue** | Image-led model cards with category filters and carousel navigation |
+| 📱 **Responsive** | Mobile navigation menu and a layout that adapts from phone to desktop |
+| ✨ **Interactions** | Animated statistics, scroll-triggered effects, testimonial carousel, expandable FAQ |
+| ✉️ **Contact** | Contact form connected to FormSubmit |
+
+| Aspect | Detail |
+| :-- | :-- |
+| **Stack** | HTML5 &middot; CSS3 &middot; Vanilla JavaScript &middot; FormSubmit |
+| **Type** | Static front-end project, built to demonstrate responsive layout and interactive web features |
+| **Note** | Independent project, not affiliated with or endorsed by BMW AG |
+| **Repo** | [github.com/ilyasNajim/bmw-website](https://github.com/ilyasNajim/bmw-website) |
+
+<img src="https://img.shields.io/badge/HTML5-0A0D16?style=flat-square&logo=html5&logoColor=00F5FF" />
+<img src="https://img.shields.io/badge/CSS3-0A0D16?style=flat-square&logo=css3&logoColor=00F5FF" />
+<img src="https://img.shields.io/badge/JavaScript-0A0D16?style=flat-square&logo=javascript&logoColor=00F5FF" />
 
 </details>
 
@@ -195,7 +235,7 @@ A coffee shop website with a database-backed back end: dynamic pages and data st
 | :-- | :-- |
 | **Stack** | HTML &middot; CSS &middot; JavaScript &middot; PHP &middot; MySQL |
 | **Impact** | A complete web project, from the interface to the database |
-| **Repo** | [github.com/ilyasNajim](https://github.com/ilyasNajim?tab=repositories) |
+| **Repo** | 🔜 Publishing soon |
 
 <img src="https://img.shields.io/badge/HTML5-0A0D16?style=flat-square&logo=html5&logoColor=00F5FF" />
 <img src="https://img.shields.io/badge/CSS3-0A0D16?style=flat-square&logo=css3&logoColor=00F5FF" />
@@ -206,9 +246,7 @@ A coffee shop website with a database-backed back end: dynamic pages and data st
 </details>
 
 <!--
-  APRÈS AVOIR POUSSÉ TES PROJETS : remplace chaque lien "Repo" par le lien exact du repo, par exemple :
-  | **Repo** | [github.com/ilyasNajim/NOM-DU-REPO](https://github.com/ilyasNajim/NOM-DU-REPO) |
-  Tu peux aussi ajouter une ligne "My contribution" sous chaque tableau.
+  Quand un projet est publié : remplace "🔜 Publishing soon" par le lien du repo, dans le tableau récapitulatif ET dans la ligne Repo du projet.
 -->
 
 <div align="center">
@@ -263,7 +301,7 @@ learning:
 building:
   - DocAI Platform    # multilingual document analysis with Gemini 2.5 Flash
   - MQTT-IDS          # ML and DL intrusion detection for IoT
-  - Vision from scratch # segmentation without high-level libraries
+  - Vision from scratch # segmentation + contour detection, published
 
 open_to:
   - AI / ML Internships
